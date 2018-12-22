@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Audiowide');
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background: black;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  right: 2%;
+  left: 2%;
+  text-align: center;
+}
+.nav-link {
+  color: wheat;
+  text-decoration: none;
+  font-size: 2em;
+}
+li {
+  list-style: none;
+  font-family: 'Audiowide', cursive;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin: 0% 5%;
+}
+ul {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#name {
+  font-family: 'Audiowide', cursive;
+}
