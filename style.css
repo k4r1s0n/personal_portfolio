@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-header {
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+html,
+body {
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#welcome-section {
+  top: 0;
+  background: url("https://img3.goodfon.ru/original/1920x1080/d/ec/kosmos-art-chernaya-bezdna.jpg");
+  min-height: 55vh;
+  padding-top: 45vh;
+  font-size: 1.5em;
+  color: white;
+}
+#navbar {
   opacity: 0.7;
   position: fixed;
   top: 0;
   display: flex;
-  background: black;
+  background:black;
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
@@ -13,61 +31,52 @@ header {
   left: 2%;
   text-align: center;
 }
+#navbar h2 {
+  color: orange;
+}
 .nav-link {
   color: white;
   text-decoration: none;
   font-size: 2em;
 }
-li {
+nav li {
   list-style: none;
-  font-family: 'Audiowide', cursive;
   margin: 0% 5%;
   
 }
-li :hover {
-  color: red;
+nav li :hover {
+  color: orange;
 }
-ul {
+nav ul {
   width: 65vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-#name {
-  font-family: 'Audiowide', cursive;
-}
-#welcome-section {
-  background: url("https://img2.goodfon.ru/original/1920x1080/1/55/robot-belyy-shlem-belyy-fon.jpg");
+#about {
+  background: url("https://img3.goodfon.ru/original/1920x1080/a/be/mlechnyy-put-zvezdy-noch-2102.jpg");
   background-size: cover;
   height: 1200px;
-  margin: -1.5%;
 }
-#page-one-wrap {
-  padding-top: 25%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.name{
-  text-align: center;
-  margin-left: 20%;
-}
-#proj-button {
-  margin-left: 15%;
-}
-#proj-button a {
+.button a {
   text-decoration: none;
-  color: black;
+  color: white;
   border: solid;
-  border-radius: 5px;
+  border-radius: 50px;
   padding: 10px;
+  position: relative;
+  top: 20px;
 }
-#proj-button :hover {
-  background-color: red;
+.button :hover {
+  background:red;
 }
 #projects {
-  background: url("https://img1.goodfon.ru/original/1920x1080/6/ea/cables-colors-plastic-1089.jpg");
+  background: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
   height: 1200px;
-  margin: -1.5%;
+}
+#contact {
+  background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80");
+  background-size: cover;
+  height: 1200px;
 }
